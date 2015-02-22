@@ -718,3 +718,83 @@ input {
     font-size: 1rem;
     width: 10px;
 }
+
+/* ==========================================================================
+   1. Media Queries - Smaller than 500px
+   ========================================================================== */
+
+
+@media only screen and (max-width: 500px) {
+
+    /*#blog-logo img {
+        max-height: 80px;
+    }*/
+
+    #content-left {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #content-main{
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .inner,
+    .pagination {
+        width: auto;
+    }
+
+    .post {
+        width:auto;
+        margin-left: 0px;
+        margin-right: 16px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .post-template .post {
+        padding-bottom: 0;
+    }
+
+    .post-template .post-header {
+        padding: 30px 0;
+    }
+
+    .post-footer {
+        padding: 4rem 0;
+        text-align: center;
+    }
+
+    .post-footer .author {
+        margin: 0 0 2rem 0;
+        padding: 0 0 1.6rem 0;
+        border-bottom: #EEEEEE 1px dashed;
+    }
+
+    .post-footer .share {
+        position: static;
+        width: auto;
+    }
+
+    .post-footer .share a {
+        margin: 1.4rem 0.8rem 0 0.8rem;
+    }
+
+    .older-posts,
+    .newer-posts {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .page-number {
+        display: block;
+    }
+
+    .site-footer {
+        margin-top: 6rem;
+        font-size: 1.1rem;
+    }
+
+}
+
