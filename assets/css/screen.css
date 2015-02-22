@@ -64,7 +64,8 @@ body {
     line-height: 1.3em;
     /*color: #3A4145;*/
     color: #aaa;
-    background: #2A2A2A;
+    /*background: #2A2A2A;*/
+    background: #2b303b;
 }
 
 ::-moz-selection {
