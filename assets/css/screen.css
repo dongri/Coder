@@ -731,6 +731,10 @@ input {
         max-height: 80px;
     }*/
 
+    #content {
+      width: 90%;
+      margin: 0 auto;
+    }
     #content-left {
       width: 100%;
       margin-bottom: 10px;
