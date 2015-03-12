@@ -1,0 +1,24 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+<div id="content-main">
+
+  <article class="{{post_class}}">
+
+    {{! Everything inside the #post tags pulls data from the post }}
+    {{#post}}
+
+    {{! Everything below outputs content of the the post which has been published }}
+    <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
+    
+    <section class="post-content">
+      {{content}}
+    </section>
+
+    {{/post}}
+
+  </article>
+
+</div>
