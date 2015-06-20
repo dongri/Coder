@@ -802,4 +802,31 @@ input {
     }
 
 }
+/************************ dark gist ****************/
+pre {
+  padding: 20px;
+  color: #ffffff;
+  background: #434343; 
+}
+ 
+body .gist .line-data, body .gist .file-data, body .gist .line-numbers {
+  color: #ffffff;
+  background: #1D1B1B; 
+}
+body .gist .gist-meta {
+  color: #ffffff;
+  background: #000000; 
+}
+body .gist .pl-vo, body .gist .pl-v, body .gist .pl-vpf {
+  color: #ffffff; 
+}
+body .gist .pl-en, body .gist .pl-c1, body .gist .pl-s3 {
+  color: #ECAC29; 
+}
+body .gist .pl-k, body .gist .pl-st {
+  color: #7373F2; 
+}
+body .gist .pl-s1, body .gist .pl-pds {
+  color: #76A22F; 
+}
 
