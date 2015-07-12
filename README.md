@@ -9,4 +9,4 @@ Visit Ghost at: [www.ghost.org](http://www.ghost.org "Ghost")
 
 
 Demo
-http://gowall.herokuapp.com/
+http://coderd.herokuapp.com/
