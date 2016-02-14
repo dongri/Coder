@@ -13,6 +13,11 @@
         <header class="post-header">
             <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
             <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM D, YYYY"}}</time> {{#if tags}} | Tags: {{tags}}{{/if}}</span>
+            
+            </br>
+            {{#author}}
+              <span class="post-meta">Written by <a href="{{url}}" style="color: #4183c4">{{name}}</a> {{#if location}} | {{location}} {{/if}}</span>
+            {{/author}}
 
         </header>
         <section class="post-content">
