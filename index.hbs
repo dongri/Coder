@@ -15,9 +15,9 @@
             <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM D, YYYY"}}</time> {{#if tags}} | Tags: {{tags}}{{/if}}</span>
             
             </br>
-            {{#author}}
+            {{#primary_author}}
               <span class="post-meta">Written by <a href="{{url}}" style="color: #4183c4">{{name}}</a> {{#if location}} | {{location}} {{/if}}</span>
-            {{/author}}
+            {{/primary_author}}
 
         </header>
         <section class="post-content">

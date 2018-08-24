@@ -830,3 +830,10 @@ body .gist .pl-s1, body .gist .pl-pds {
   color: #76A22F; 
 }
 
+.kg-width-wide img {
+  max-width: 85vw;
+}
+
+.kg-width-full img {
+  max-width: 100vw;
+}

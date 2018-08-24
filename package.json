@@ -1,4 +1,11 @@
 {
-  "name": "Coder",
-  "version": "0.0.1"
+  "name": "coder",
+  "version": "2.0.0",
+  "author": {
+    "name": "D",
+    "email": "dongrify@gmail.com"
+  },
+  "keywords": [
+    "ghost-theme"
+  ]
 }
