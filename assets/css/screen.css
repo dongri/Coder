@@ -245,7 +245,7 @@ pre code, tt {
     white-space: pre-wrap;
     background: transparent;
     border: none;
-    padding: 0;
+    padding: 10px;
 }
 
 kbd {
